@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E132C8D17412E4D00819A3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E132C8C17412E4D00819A3D /* QuartzCore.framework */; };
+		2E1A88D4173FB66C00B21372 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A88D3173FB66B00B21372 /* MAAttachedWindow.m */; };
+		2E4C279117428608004DECCB /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4C279017428608004DECCB /* refresh.png */; };
+		2E4C279317428705004DECCB /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4C279217428705004DECCB /* setting.png */; };
+		2E4C27951742873F004DECCB /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4C27941742873F004DECCB /* back.png */; };
+		2E4C279717428855004DECCB /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4C279617428855004DECCB /* quit.png */; };
 		2EC5BA451706B69400CDF2BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC5BA441706B69400CDF2BB /* Cocoa.framework */; };
 		2EC5BA4F1706B69400CDF2BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5BA4D1706B69400CDF2BB /* InfoPlist.strings */; };
 		2EC5BA511706B69400CDF2BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5BA501706B69400CDF2BB /* main.m */; };
 		2EC5BA551706B69400CDF2BB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5BA531706B69400CDF2BB /* Credits.rtf */; };
 		2EC5BA581706B69400CDF2BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5BA571706B69400CDF2BB /* AppDelegate.m */; };
 		2EC5BA5B1706B69400CDF2BB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5BA591706B69400CDF2BB /* MainMenu.xib */; };
+		2EC5BA6A1706DD9F00CDF2BB /* Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5BA691706DD9F00CDF2BB /* Stopwatch.m */; };
+		2EC5BA771708093400CDF2BB /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5BA761708093400CDF2BB /* circle.png */; };
+		2EC5BA7917080A3000CDF2BB /* smallCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5BA7817080A2F00CDF2BB /* smallCircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E132C8C17412E4D00819A3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2E1A88D2173FB66B00B21372 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		2E1A88D3173FB66B00B21372 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		2E4C279017428608004DECCB /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		2E4C279217428705004DECCB /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		2E4C27941742873F004DECCB /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		2E4C279617428855004DECCB /* quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit.png; sourceTree = "<group>"; };
 		2EC5BA411706B69400CDF2BB /* BreakReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC5BA441706B69400CDF2BB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2EC5BA471706B69400CDF2BB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +45,10 @@
 		2EC5BA561706B69400CDF2BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EC5BA571706B69400CDF2BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2EC5BA5A1706B69400CDF2BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2EC5BA681706DD9F00CDF2BB /* Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stopwatch.h; sourceTree = "<group>"; };
+		2EC5BA691706DD9F00CDF2BB /* Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stopwatch.m; sourceTree = "<group>"; };
+		2EC5BA761708093400CDF2BB /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		2EC5BA7817080A2F00CDF2BB /* smallCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallCircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E132C8D17412E4D00819A3D /* QuartzCore.framework in Frameworks */,
 				2EC5BA451706B69400CDF2BB /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				2EC5BA441706B69400CDF2BB /* Cocoa.framework */,
+				2E132C8C17412E4D00819A3D /* QuartzCore.framework */,
 				2EC5BA461706B69400CDF2BB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -85,6 +107,12 @@
 				2EC5BA561706B69400CDF2BB /* AppDelegate.h */,
 				2EC5BA571706B69400CDF2BB /* AppDelegate.m */,
 				2EC5BA591706B69400CDF2BB /* MainMenu.xib */,
+				2EC5BA761708093400CDF2BB /* circle.png */,
+				2EC5BA7817080A2F00CDF2BB /* smallCircle.png */,
+				2EC5BA681706DD9F00CDF2BB /* Stopwatch.h */,
+				2EC5BA691706DD9F00CDF2BB /* Stopwatch.m */,
+				2E1A88D2173FB66B00B21372 /* MAAttachedWindow.h */,
+				2E1A88D3173FB66B00B21372 /* MAAttachedWindow.m */,
 				2EC5BA4B1706B69400CDF2BB /* Supporting Files */,
 			);
 			path = BreakReminder;
@@ -98,6 +126,10 @@
 				2EC5BA501706B69400CDF2BB /* main.m */,
 				2EC5BA521706B69400CDF2BB /* BreakReminder-Prefix.pch */,
 				2EC5BA531706B69400CDF2BB /* Credits.rtf */,
+				2E4C27941742873F004DECCB /* back.png */,
+				2E4C279217428705004DECCB /* setting.png */,
+				2E4C279017428608004DECCB /* refresh.png */,
+				2E4C279617428855004DECCB /* quit.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +188,12 @@
 				2EC5BA4F1706B69400CDF2BB /* InfoPlist.strings in Resources */,
 				2EC5BA551706B69400CDF2BB /* Credits.rtf in Resources */,
 				2EC5BA5B1706B69400CDF2BB /* MainMenu.xib in Resources */,
+				2EC5BA771708093400CDF2BB /* circle.png in Resources */,
+				2EC5BA7917080A3000CDF2BB /* smallCircle.png in Resources */,
+				2E4C279117428608004DECCB /* refresh.png in Resources */,
+				2E4C279317428705004DECCB /* setting.png in Resources */,
+				2E4C27951742873F004DECCB /* back.png in Resources */,
+				2E4C279717428855004DECCB /* quit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +206,8 @@
 			files = (
 				2EC5BA511706B69400CDF2BB /* main.m in Sources */,
 				2EC5BA581706B69400CDF2BB /* AppDelegate.m in Sources */,
+				2EC5BA6A1706DD9F00CDF2BB /* Stopwatch.m in Sources */,
+				2E1A88D4173FB66C00B21372 /* MAAttachedWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +343,7 @@
 				2EC5BA601706B69400CDF2BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
